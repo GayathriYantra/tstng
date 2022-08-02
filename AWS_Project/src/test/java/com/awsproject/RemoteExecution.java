@@ -11,6 +11,7 @@ public class RemoteExecution {
 
 	public static void main(String[] args) throws MalformedURLException 
 	{	//Initialisation
+		////////////
 		//Declaration
 		URL url=new URL("http://192.168.229.1:5555/wd/hub");
 		DesiredCapabilities cap= new DesiredCapabilities();
