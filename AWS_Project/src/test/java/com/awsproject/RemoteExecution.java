@@ -10,7 +10,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class RemoteExecution {
 
 	public static void main(String[] args) throws MalformedURLException 
-	{
+	{	
+		//Declaration
 		URL url=new URL("http://192.168.229.1:5555/wd/hub");
 		DesiredCapabilities cap= new DesiredCapabilities();
 		cap.setBrowserName("firefox");
